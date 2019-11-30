@@ -1,22 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #eee;
+  position: relative;
 }
 
-.App-link {
-  color: #09d3ac;
+.start--button {
+  padding: 10px 30px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 18px;
 }
+
+.start--button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #ad102f;
+  cursor: pointer;
+}
+
+.start--button:focus {
+  outline: none;
+}
+
+.pause--button {
+  padding: 10px 30px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  left: 5px;
+  font-size: 18px;
+}
+
+.pause--button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #ad102f;
+  cursor: pointer;
+}
+
+.pause--button:focus {
+  outline: none;
+}
+
+.restart--button {
+  padding: 10px 30px;
+  background-color: crimson;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 18px;
+}
+
+.restart--button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #ad102f;
+  cursor: pointer;
+}
+
+.restart--button:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  width: 1%;
+}
+
+.line--sorted {
+  background-color: blue;
+}
+
+.line--notSorted {
+  background-color: red;
+}
+
+.current {
+  background-color: #cc0000;
+}
+/*# sourceMappingURL=app.css.map */
