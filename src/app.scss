@@ -100,3 +100,21 @@ body {
 .current {
     background-color: darken(red, 10);
 }
+
+.question {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.difficulty {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
